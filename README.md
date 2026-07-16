@@ -14,14 +14,14 @@ This is a Full-Stack Artificial Intelligence application that analyzes the senti
 ### 1. Start the FastAPI Backend
 Open a terminal in the root directory and run:
 ```bash
-python3 -m uvicorn main:app --reload --port 8001
+python3 -m uvicorn main:app --reload --port 8001```
 
 ### 2. Start the React Frontend
 Open a second terminal, navigate to the frontend folder, and run:
 ```bash
 cd frontend
 npm start
-The web application will open automatically at http://localhost:3000.
+The web application will open automatically at http://localhost:3000.```
 
 ## 🐳 Run with Docker (Recommended)
 
@@ -34,7 +34,7 @@ This project is fully containerized using Docker, making it incredibly easy to s
 1. Clone the repository and navigate to the project folder.
 2. Run the following command in your terminal:
    ```bash
-   docker compose up -d --build
+   docker compose up -d --build```
 
 Wait a few moments for the containers to build and start.
 
