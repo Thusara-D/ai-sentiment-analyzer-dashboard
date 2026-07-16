@@ -9,19 +9,23 @@ This is a Full-Stack Artificial Intelligence application that analyzes the senti
 * **Frontend UI:** React.js, Node.js
 * **Version Control:** Git & GitHub
 
-## ⚙️ How to Run the Project locally
+## ⚙️ How to Run the Project Locally
 
 ### 1. Start the FastAPI Backend
 Open a terminal in the root directory and run:
 ```bash
-python3 -m uvicorn main:app --reload --port 8001```
+python3 -m uvicorn main:app --reload --port 8001
+```
 
 ### 2. Start the React Frontend
 Open a second terminal, navigate to the frontend folder, and run:
 ```bash
 cd frontend
 npm start
-The web application will open automatically at http://localhost:3000.```
+```
+The web application will open automatically at `http://localhost:3000`.
+
+---
 
 ## 🐳 Run with Docker (Recommended)
 
@@ -34,16 +38,15 @@ This project is fully containerized using Docker, making it incredibly easy to s
 1. Clone the repository and navigate to the project folder.
 2. Run the following command in your terminal:
    ```bash
-   docker compose up -d --build```
+   docker compose up -d --build
+   ```
+3. Wait a few moments for the containers to build and start.
+4. Access the applications:
+   * **Frontend (React UI):** [http://localhost:3000](http://localhost:3000)
+   * **Backend API (FastAPI Docs):** [http://localhost:8001/docs](http://localhost:8001/docs)
 
-Wait a few moments for the containers to build and start.
-
-###Access the applications:
-
-1.Frontend (React UI): http://localhost:3000
-2.Backend API (FastAPI Docs): http://localhost:8001/docs
-
-###To Stop the Application
-1.Run the following command to stop and remove the containers:
-   ```Bash
-   docker compose down
+### To Stop the Application
+Run the following command to stop and remove the containers:
+```bash
+docker compose down
+```
